@@ -1,0 +1,47 @@
+.navbar-container {
+    background-color: var(--cafe-claro);
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  .app-name-container {
+    color: var(--oscurito);
+    font-weight: bolder;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    width: 11rem;
+    text-align: left;
+    
+  }
+  
+  .links-container {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    margin-right: 1rem;
+    color: var(--oscurito);
+    font-size: x-large;
+  }
+  
+  .navbar-container li:hover {
+    text-shadow: 0 0 12px var(--hueso);
+  }
+  
+  .logo-container {
+    height: 3.7rem;
+    width: 3.7rem;
+    background-color: var(--hueso);
+    margin: 0.2rem;
+    
+  }
+  .logo-container img {
+    height: 90%;
+    width: 90%;
+    margin:0.2rem
+  }
